@@ -3,10 +3,17 @@ body{
     color: #fff;
     min-height: 100vh;
 }
-h1{
+.header__title{
     font-family: 'Sedgwick Ave Display';
     font-style: bold;
     font-size: 56px;
     text-align: center;
 }
+.header__team{
+    justify-content: center ;
+    text-align: center
+}
+
+
+
 
