@@ -9,9 +9,25 @@ body{
     font-size: 56px;
     text-align: center;
 }
-.header__team{
-    justify-content: center ;
-    text-align: center
+.header__team{ 
+    text-align: justify;
+    text-align: center;
+    
+}
+a{
+    color: #fff;
+    
+    
+}
+.link{
+    text-align: center;
+}
+.figure__image{
+    height: auto;
+    width: 100%;
+}
+figcaption{
+    text-align: center;
 }
 
 
