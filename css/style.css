@@ -16,6 +16,10 @@ body{
 }
 a{
     color: #fff;
+    font-family: 'Playpen Sans';
+    font-style: normal;
+    font-size: 21px;
+
     
     
 }
@@ -25,10 +29,78 @@ a{
 .figure__image{
     height: auto;
     width: 100%;
+    border-radius: 216px;
 }
 figcaption{
     text-align: center;
+    font-family: 'Playpen Sans';
+    font-style: normal;
+    font-size: 21px;
 }
+h2{
+    text-align: center;
+    font-family: 'Sedgwick Ave Display';
+    font-style: bold;
+    font-size: 36px;
+
+}
+p{
+    text-align: center;
+    font-family: 'Playpen Sans';
+    font-style: normal;
+    font-size: 21px;
+}
+.brady{
+    height: 800px;
+    width: 500px;
+    border-radius: 216px;
+}
+.cadrene{
+    height: 800px;
+    width: 500px;
+    border-radius: 216px;
+}
+.image__patriot
+{
+    text-align: center;
+}
+.hurle{
+    height: 800px;
+    width: 500px;
+    border-radius: 216px;
+}
+.cadretampa{
+    height: 800px;
+    width: 500px;
+    border-radius: 216px;
+}
+.image__tampa{
+    text-align: center;
+}
+.list{
+    text-align: center;
+    font-family: 'Playpen Sans';
+    font-style: normal;
+    font-size: 21px;
+}
+.list__point{
+    display: flex;
+    font-family: 'Playpen Sans';
+    font-style: normal;
+    font-size: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
