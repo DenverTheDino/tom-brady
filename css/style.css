@@ -45,7 +45,7 @@ h2{
     font-size: 36px;
 
 }
-p{
+.history{
     
     font-family: 'Playpen Sans';
     font-style: normal;
@@ -100,7 +100,7 @@ p{
 }
 @media (max-width:834){
     
-p{
+.history{
     max-width: 75%;
     margin: auto;
     border: #fff solid 3px;
