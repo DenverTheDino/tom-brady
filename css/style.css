@@ -1,7 +1,7 @@
 body{
     background-color: #000;
     color: #fff;
-    min-height: 100vh;
+    
 }
 .header__title{
     font-family: 'Sedgwick Ave Display';
@@ -30,6 +30,7 @@ a{
     height: auto;
     width: 100%;
     border-radius: 216px;
+
 }
 figcaption{
     text-align: center;
@@ -45,10 +46,15 @@ h2{
 
 }
 p{
-    text-align: center;
+    
     font-family: 'Playpen Sans';
     font-style: normal;
     font-size: 21px;
+    max-width:50%;
+    text-align: center;
+    margin-left: 25%;
+    
+
 }
 .brady{
     height: 800px;
@@ -78,17 +84,36 @@ p{
     text-align: center;
 }
 .list{
-    text-align: center;
     font-family: 'Playpen Sans';
     font-style: normal;
     font-size: 21px;
-}
-.list__point{
+    display: list-item;
     display: flex;
-    font-family: 'Playpen Sans';
-    font-style: normal;
-    font-size: 21px;
+    align-content: center;
+    justify-content: space-around;
 }
+.ball{
+    height: 90% ;
+    width: 100% ;
+    border-radius: 408px;
+    border: #fff solid 5px;
+}
+@media (max-width:834){
+    
+p{
+    max-width: 75%;
+    margin: auto;
+    border: #fff solid 3px;
+}
+
+    
+}
+
+
+
+
+
+
 
 
 
