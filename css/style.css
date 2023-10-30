@@ -1,5 +1,5 @@
 body{
-    background-color: #000;
+    background-color: black;
     color: #fff;
     
 }
@@ -131,11 +131,16 @@ ol{
 
 }
 @media (max-width:834px){
+body{
+    background-image: url(../images/papiers-peints-football-americain-avec-le-casque-et-d-39-un-drapeau.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
     .header__title{
         font-family: 'Nosifer', sans-serif;
         font-style: bold;
         font-size: 36px;
-        margin-left: 15%;
+        margin-left: 12%;
     }
 .figure__image{
         height: 512px;
@@ -151,10 +156,10 @@ figcaption{
         margin-left: 15%;
 }
 .link{
-    margin-left: 17%;
+    margin-left: 12%;
 }
 h2{
-    margin-left: 17%;
+    margin-left: 12%;
 }
 .history{
     margin-left: 16%;
@@ -162,24 +167,24 @@ h2{
 .brady{
     height: 883px;
     width: 511px;
-    margin: 20%;
+    margin-left: 10px;
 }
 .cadrene{
     height: 883px;
     width: 511px;
-    margin: 20%;
+    margin-left: 25%;
     margin-top: 1%
 }
 .hurle{
     height: 883px;
     width: 511px;
-    margin: 20%;
+    margin-left: 12%;
     margin-top: 1% ;
 }
 .cadretampa{
     height: 883px;
     width: 511px;
-    margin: 20%;
+    margin-left: 25%;
     margin-top: 1%
 }
 ol{
@@ -194,7 +199,12 @@ ol{
 }
 
 @media (max-width:430px){
-    .header__title{
+body{
+    background-image: url(../images/brady.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__title{
         font-family: 'Nosifer', sans-serif;
         font-style: bold;
         font-size: 25px;
@@ -247,6 +257,7 @@ h2{
 }
 ol{
     margin-left: 8%;
+    color: black;
 }
 .ball{
     height: 385px ;
