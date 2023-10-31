@@ -1,18 +1,318 @@
 body{
-    background-color: #000;
+    background-color: black;
     color: #fff;
-    min-height: 100vh;
+    
+}
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
 }
 .header__title{
-    font-family: 'Sedgwick Ave Display';
+    font-family: 'Nosifer', sans-serif;
     font-style: bold;
     font-size: 56px;
     text-align: center;
 }
-.header__team{
-    justify-content: center ;
-    text-align: center
+.header__team{ 
+    text-align: justify;
+    text-align: center;
+    
 }
+a{
+    color: red;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-size: 21px;
+    text-align: center;
+}
+.link{
+    text-align: center;
+}
+.figure__image{
+    height: 925px;
+    width: 1291px;
+    border-radius: 216px;
+    margin:auto
+
+}
+figcaption{
+    text-align: center;
+    font-family:'Pacifico';
+    font-style: normal;
+    font-size: 21px;
+}
+h2{
+    text-align: center;
+    font-family:  'Nosifer', sans-serif;
+    font-style: bold;
+    font-size: 36px;
+
+}
+.history{
+    
+    font-family:'Pacifico';
+    font-style: normal;
+    font-size: 21px;
+    max-width:1234px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: #fff solid 3px;
+    border-radius: 15px;
+    
+
+}
+.brady{
+    height: 883px;
+    width: 544px;
+    border-radius: 216px;
+    margin-right: 13%;
+    
+
+}
+.cadrene{
+    height: 883px;
+    width: 497px;
+    border-radius: 216px;
+    margin-right: 5%;
+    
+}
+
+.hurle{
+    height: 883px;
+    width: 544px;
+    border-radius: 216px;
+    margin-top: 7%;
+    margin-right: 13%;
+}
+.image__patriot{
+    text-align: center;
+}
+.cadretampa{
+    height: 883px;
+    width: 497px;
+    border-radius: 216px;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.image__tampa{
+    text-align: center;
+}
+
+
+.list{
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-size: 21px;
+    display: list-item;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    
+    
+}
+ol{
+    border: #fff solid 3px;
+    border-radius: 30px;
+
+}
+.ball{
+    height: 707px ;
+    width: 100% ;
+    border-radius: 408px;
+    margin: auto;
+}
+.designed{
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-size: 21px;
+    text-align: center;
+
+}
+@media (max-width:834px){
+body{
+    background-image: url(../images/papiers-peints-football-americain-avec-le-casque-et-d-39-un-drapeau.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .header__title{
+        font-family: 'Nosifer', sans-serif;
+        font-style: bold;
+        font-size: 36px;
+        margin-left: 12%;
+    }
+.figure__image{
+        height: 512px;
+        width: 812px;
+        border-radius: 216px;
+        margin:auto
+    }
+figcaption{
+        text-align: center;
+        font-family:'Pacifico';
+        font-style: normal;
+        font-size: 21px;
+        margin-left: 15%;
+}
+.link{
+    margin-left: 12%;
+}
+h2{
+    margin-left: 12%;
+}
+.history{
+    margin-left: 16%;
+}
+.brady{
+    height: 883px;
+    width: 511px;
+    margin-left: 10px;
+}
+.cadrene{
+    height: 883px;
+    width: 511px;
+    margin-left: 25%;
+    margin-top: 1%
+}
+.hurle{
+    height: 883px;
+    width: 511px;
+    margin-left: 12%;
+    margin-top: 1% ;
+}
+.cadretampa{
+    height: 883px;
+    width: 511px;
+    margin-left: 25%;
+    margin-top: 1%
+}
+ol{
+    margin-left: 8%;
+}
+.ball{
+    height: 385px ;
+    width: 100% ;
+    border-radius: 408px;
+    margin-left: 4%;
+}
+}
+
+@media (max-width:430px){
+body{
+    background-image: url(../images/brady.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__title{
+        font-family: 'Nosifer', sans-serif;
+        font-style: bold;
+        font-size: 25px;
+        margin-left: 10%;
+    }
+.figure__image{
+        height: 215px;
+        width: 350px;
+        border-radius: 216px;
+        margin:auto
+    }
+figcaption{
+        text-align: center;
+        font-family:'Pacifico';
+        font-style: normal;
+        font-size: 21px;
+        margin-left: 13%;
+}
+.link{
+    margin-left: 10%;
+}
+h2{
+    margin-left: 10%;
+}
+.history{
+    margin-left: 16%;
+}
+.brady{
+    height: 558px;
+    width: 364px;
+    margin: 7%;
+}
+.cadrene{
+    height: 558px;
+    width: 364px;
+    margin: 7%;
+    margin-top: 1%
+}
+.hurle{
+    height: 558px;
+    width: 364px;
+    margin: 7%;
+    margin-top: 1% ;
+}
+.cadretampa{
+    height: 558px;
+    width: 364px;
+    margin: 7%;
+    margin-top: 1%
+}
+ol{
+    margin-left: 8%;
+    color: black;
+}
+.ball{
+    height: 385px ;
+    width: 100% ;
+    border-radius: 408px;
+    margin-left: 4%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
